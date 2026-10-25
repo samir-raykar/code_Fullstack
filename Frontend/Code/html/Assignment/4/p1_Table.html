@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="2">
+        <thead>
+            <tr>
+                <th rowspan="3">Day</th>
+                <th colspan="3">Seminar</th>
+            </tr>
+            <tr>
+                <th colspan="2">Schedule</th>
+                <th rowspan="2">Topic</th>
+            </tr>   
+            </tr>
+                    <th>begin</th>
+                    <th>End </th>
+            </tr>
+        </thead>
+        <tbody>
+        
+            <tr>
+                <td rowspan="2">Monday</td>
+                <td rowspan="2">8</td>
+                <td rowspan="2">5</td>
+                <td>Intro</td>
+        </tr>
+        <tr>
+            <td>Validity</td>
+        </tr>
+        <tr>
+            <td rowspan="3">Tuesday</td>
+            <td>8</td>
+            <td>11</td>
+            <td>XPath</td>
+        </tr>
+        <tr>
+            <td>11</td>
+            <td>2</td>
+            <td rowspan="2">XSLT Transformations</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>5</td>
+        </tr>
+        </tbody>
+        <tfoot>
+        <tr>
+            <td>Wednesday</td>
+            <td>8</td>
+            <td>12</td>
+            <td>XSL Formation</td>
+        </tr>
+    </tfoot>
+    </table>
+</body>
+</html>
+<!-- Table Tag :
+    caption : The <caption> tag is used to provide a title or description for an HTML table. It is typically placed immediately after the opening <table> tag and is used to give context or information about the table's content.
+    table : The <table> tag is used to create a table in HTML. It serves
+    tr : The <tr> tag is used to define a table row in an HTML table. It is a container for table cells (<td> or <th>) and is used to group related data together within a row.
+    th : The <th> tag is used to define a table header cell in an HTML table. It is typically used to provide headings for columns or rows, and the text within a <th> element is usually displayed in bold and centered by default.
+    td : The <td> tag is used to define a table cell in an HTML table
+    1. rowspan : The rowspan attribute is used in HTML tables to specify the number of rows a cell should span vertically. It allows a single cell to occupy multiple rows, creating a merged effect in the table layout.
+    2. colspan : The colspan attribute is used in HTML tables to specify the number of columns a cell should span horizontally. It allows a single cell to occupy multiple columns, creating a merged effect in the table layout.
+    1. thead : The <thead> tag is used to group the header content of an HTML table. It is typically placed at the beginning of the table and contains one or more <tr> elements that define the header rows. The <thead> section helps to semantically separate the header from the body of the table.
+    2. tbody : The <tbody> tag is used to group the main content of an HTML table. It is typically placed after the <thead> section and contains one or more <tr> elements that define the data rows. The <tbody> section helps to semantically separate the body of the table from the header and footer.
+    3. tfoot : The <tfoot> tag is used to group the footer content of an HTML table. It is typically placed at the end of the table and contains one or more <tr> elements that define the footer rows. The <tfoot> section helps to semantically separate the footer from the body and header of the table.    
