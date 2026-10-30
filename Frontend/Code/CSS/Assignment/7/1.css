@@ -1,0 +1,44 @@
+h1{
+    color: rgb(3, 3, 61);
+    text-align: center;
+}
+#head{
+    text-align: center;
+}
+h3{
+    color:green;
+}
+.list{
+    color: red;
+}
+.box{
+    background-color: aqua;
+    border-radius: 12px;
+    height: 300;
+    width: 500px;
+}
+#title{
+    text-align: center;
+}
+h2{
+    color:green;
+}
+#bottom{
+    text-align: center;
+    color: red;
+}
+a{
+    text-decoration: none;
+}
+.tip::before{
+    content: "tip";
+    color: green;
+
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}

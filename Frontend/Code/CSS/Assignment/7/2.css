@@ -1,0 +1,42 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  color: rgba(255, 215, 0, 1);
+
+  text-align: center;
+}
+h2 {
+  color: orange;
+}
+p,
+figcaption {
+  color: aliceblue;
+}
+.foot {
+  color: green;
+  text-align: center;
+  background-color: black;
+  width: 100%;
+}
+.box {
+  background: rgba(43, 44, 47, 1);
+  height: 323px;
+  width: 500px;
+  padding: 20px;
+  border-radius: 8px;
+}
+.im{
+    
+    border-radius: 8px;
+    height:250px ;
+    width: 200px;
+
+}
+.p{
+    background: rgba(24, 24, 25, 1);
+      height:46px;
+      width:500px;
+
+}
