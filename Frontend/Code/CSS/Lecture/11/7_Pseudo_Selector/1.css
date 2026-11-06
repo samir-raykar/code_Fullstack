@@ -1,0 +1,21 @@
+h1:hover{
+    color:plum;
+}
+li:first-child{
+    color: orange;
+}
+li:nth-child(3){
+    color:blue;
+}
+input:focus{
+    outline-color:chocolate;
+    background-color:green;
+    color:blue;
+}
+h1::after{
+    content:'welcome';
+    color:red;
+}
+input[type="text"]{
+    color:violet;
+}

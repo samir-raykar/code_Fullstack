@@ -1,0 +1,6 @@
+div>h1{
+    color:blueviolet;
+}
+div>h1,p{
+    color:blueviolet;
+}
